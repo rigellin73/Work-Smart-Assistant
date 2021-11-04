@@ -4,7 +4,6 @@ import subprocess
 server_conf = "configs/servers.conf"
 path_conf= "configs/paths.conf"
 
-#test comment
 def check_space(my_server, my_path):
     cmd = f'ssh {my_server} \'df -hi {my_path}\''
     os.system(cmd)
